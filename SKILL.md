@@ -1,11 +1,11 @@
 ---
 name: what-if-animation
-description: Make a "What If" animated episode from one topic line ("What if you could rewind 10 seconds?"), in the dusk-lit stick-figure style of the What If channels that broke out on YouTube in October 2026. Writes the script on the seven-beat What If formula, voices it with ElevenLabs, lays out a shot list at the genre's pace, renders a storyboard of stills and self-checks it before animating, animates every frame in code (Remotion and SVG, with an original cast on one rig, rooms in perspective and light from lamps and windows), generates and syncs the sound, and masters a finished 15-25 s episode to -14 LUFS. Use when someone asks for a What If episode, animation or cartoon, "make a what if video about X", a stick-figure explainer in this style, or to run the free What If skill.
+description: Make a "What If" animated episode from one topic line ("What if you could rewind 10 seconds?"), in the dusk-lit stick-figure style of the What If channels that broke out on YouTube in October 2026. Writes the script on the seven-beat What If formula, voices it with ElevenLabs, lays out a shot list at the genre's pace, renders a storyboard of stills and self-checks it before animating, animates every frame in code (Remotion and SVG, with an original cast on one rig, rooms in perspective and light from lamps and windows), generates and syncs the sound, and masters a finished 6-10minutes episode to -14 LUFS. Use when someone asks for a What If episode, animation or cartoon, "make a what if video about X", a stick-figure explainer in this style, or to run the free What If skill.
 ---
 
 # What If animation
 
-One topic line in, a finished 15-25 second episode out. Every frame is SVG that Claude writes (rendered by
+One topic line in, a finished 6-10minutes episode out. Every frame is SVG that Claude writes (rendered by
 Remotion); the voice and the sound come from ElevenLabs. Two examples ship in `studio/src/episodes/`, both ready to
 render: `rewind` ("What if you could rewind 10 seconds?", the proof clip: shots played backwards as the power) and
 `copy-paste` ("What if you could copy and paste anything?", the skill's first full run: a new kitchen set, a
@@ -13,7 +13,7 @@ schematic for the science beat, a cliffhanger blackout). Read the one closest to
 
 | File | What's in it |
 |---|---|
-| `references/formula.md` | The seven-beat What If formula, the 15-25 s shape, script rules, choosing a topic |
+| `references/formula.md` | The seven-beat What If formula, the 6-10minutes shape, script rules, choosing a topic |
 | `references/look.md` | The measured look, pace, shot vocabulary, and the storyboard and motion checklists |
 | `references/kit.md` | The building blocks: engine, cast, sets, room kit, light, UI, looks, and how to add each |
 | `references/sound.md` | Writing sound events, prompts, levels, costs |
@@ -70,7 +70,7 @@ python <skill>/scripts/voice.py <slug>
 ```
 
 One ElevenLabs take with character timestamps (the 356-character copy-paste take cost 78 credits), then the pauses
-cut to the genre's pace: `public/<slug>/voice.wav` and `src/episodes/<slug>/words.json`. Check the length (15-25 s)
+cut to the genre's pace: `public/<slug>/voice.wav` and `src/episodes/<slug>/words.json`. Check the length (6-10minutes)
 and the word times it prints. Retune pauses with `gaps` in `episode.json` and re-run: the take is cached, so that's free. Change a word
 and it calls the API again.
 
