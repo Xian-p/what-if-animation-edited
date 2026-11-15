@@ -1,6 +1,6 @@
 # What If animation: a free skill for Claude Code and OpenCode
 
-Type one line, "What if you could rewind 10 seconds?", and get a finished 15-25 second animated episode in the
+Type one line, "What if you could rewind 10 seconds?", and get a finished 6-10minutes animated episode in the
 dusk-lit stick-figure style of the "What If" channels that took off on YouTube in October 2026.
 
 Every frame is drawn in code: the AI writes the scenes as SVG and Remotion renders them. The voice and the sound
