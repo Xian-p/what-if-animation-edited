@@ -2,7 +2,7 @@
 
 Decoded on 21 Oct 2026 from five scripts across four channels that broke out with this format in October 2026
 (Ifverse, FunNotSoFun, IFinity, Could've Been Tales). The full episodes run 7 to 10 minutes and hit all seven beats;
-the skill makes a 15 to 25 second episode, which is the cold open of one: beats 1 to 4 in full, 5 to 7 folded into
+the skill makes a 6 to 10 minutes episode, which is the cold open of one: beats 1 to 4 in full, 5 to 7 folded into
 the last line.
 
 ## The seven beats
